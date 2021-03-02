@@ -1,0 +1,117 @@
+/*---------------------
+ Breadcrumb Section Begin
+-----------------------*/
+
+.breadcrumb-section {
+    display: flex;
+    align-items: center;
+    padding: 0px 0 40px;
+    height: 386px;
+}
+
+.breadcrumb-section span {
+    display: flex;
+    align-items: center;
+    padding: 140px 0 40px;
+}
+
+.breadcrumb__option span {
+    display: inline-block;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+/*  Main Content Section */
+
+.box_maincontent-recruitment {
+    background-color: #ffff;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 8px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 20px;
+}
+
+.box_maincontent-recruitment {
+    padding: 3rem;
+}
+
+
+section.maincotent-recruitment {
+    margin-top: 5em;
+}
+
+ul.text_maincontent_recruitment li {
+    font-size: 1.7rem;
+    list-style: none;
+}
+
+h5.maintext_maincontent-recuitment {
+    font-weight: 900;
+    font-size: 2rem;
+    text-transform: uppercase;
+
+}
+
+.padding_maincontent_recruitment img {
+    width: 71.15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .box_maincontent-recruitment {
+    margin-top: 5em;
+}
+
+ /* Recruitment Process Section Begin */
+ 
+
+section.recruiment_process-recruitment {
+    margin-top: 6em;
+}
+p.font_medium-recruitment {
+    font-size: 4.1rem;
+    text-transform: uppercase;
+
+}
+
+p.font_extrabold-recruitment {
+    font-size: 4.1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+
+.process_maincontent_recruitment {
+    left: -4em;
+    position: absolute;
+    top: -9rem;
+}
+
+span.process_maincontent_span-recruitment {
+    font-size: 5rem;
+    position: relative;
+    top: -2em;
+    left: 0.8em;
+    color: var(--white-color);
+}
+
+.process_maincontent_recruitment {
+    height: 126.26px;
+    width: 126.26px;
+}
+
+
+.process_maincontentpadding_recuritment {
+    padding: 2em;
+}
+
+.padding_maincontent_recruitment.tex_maintcontent_recruitment {
+    padding-left: 4.5em;
+    padding-top: 2em;
+}
+
+.box_maincontent-recruitment.box_maicontentheight-recuitment {
+    min-height: 243.5px;
+}

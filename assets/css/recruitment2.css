@@ -1,0 +1,96 @@
+
+
+
+/* a#dropdownMenuLink {
+    width: 299px;
+    height: 5em;
+} */
+
+
+a#dropdownMenuLink {
+    font-size: 2.4rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.breadcrumb__text {
+    margin-top: 26em;
+}
+
+.btn-outline-light {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+    width: 299px;
+    height: 50px;
+    border-radius: 26px;
+    background-color: rgba(0,0,0,0.2)
+}
+ul.dropdown-menu.show {
+    width: 299px;
+    border-radius: 10px;
+}
+a.dropdown-item {
+    font-size: 1.5rem;
+    color: #6D7783;
+}
+
+section.main_recruitment {
+    margin-top: 4em;
+
+    margin-bottom: 4em;
+}
+
+.mainmargin_recruitment {
+    margin-top: 1em;
+}
+
+.card {
+    margin-top: 3em;
+    border-radius: 14px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 8px 20px 0 rgb(0 0 0 / 19%);
+}
+p.card-text {
+    font-size: 1.5rem;
+    color: #6D7783;
+}
+
+h5.card-title {
+    color: #363D4F;
+    font-size: 2rem;
+}
+
+h5.card-title {
+    color: #363D4F;
+    font-size: 2rem;
+}
+
+span.recruitment_type {
+    color: #484848;
+    font-weight: 600;
+}
+
+span.recruitment_experience {
+    color: #484848;
+    font-weight: 700;
+}
+
+span.recruiment_salary {
+    color: #067DF5;
+    font-weight: 700;
+}
+
+span.recruitmennt_date {color: #EC0000;font-weight: 700;}
+
+.pagination_recruitment {
+  
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+a.page-link {
+    color: var(--text-color);
+}
