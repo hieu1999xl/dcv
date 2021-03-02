@@ -1,0 +1,46 @@
+/*content*/
+.content {
+    max-width: 100%;
+    height: 1800px;
+    background-color: #ffffff;
+    margin-left: 390px;
+    margin-right: 390px;
+}
+
+.content__title {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #F0542D;
+}
+
+.content__introducion {
+
+}
+.content__introducion span {
+    color: #047CFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.content .card-deck {
+
+}
+/*end-content*/
+
+.content__fiture__service {
+    height: 736px;
+    width: 100%;
+    background-color: #EBF5FF;
+}
+
+.content__customer .content__customer-client {
+    display: flex;
+}
+
+.content__customer .content__customer-client .card {
+    margin: 20px;
+}

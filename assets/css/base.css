@@ -12,12 +12,6 @@
 
 /*up lên tất cả phần tử html*/
 
-*{
-    box-sizing: inherit;
-
-}
-
-
 * {
     box-sizing: inherit;
     outline: none;
@@ -30,5 +24,6 @@ html {
     font-size: 62.5%;
     line-height: 1.6rem;
     box-sizing: border-box;
+    font-family: Montserrat;
     
 }

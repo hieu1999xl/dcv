@@ -1,3 +1,21 @@
-/* .header {
-    background-image: ;
-} */
+
+/*header*/
+
+.header__menu {
+    margin-left: 390px;
+    margin-right: 390px;
+}
+
+.header__menu__titles ul li {
+
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+
+
+
+
