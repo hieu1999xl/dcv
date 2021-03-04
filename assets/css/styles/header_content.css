@@ -1,10 +1,32 @@
 /*content*/
+hr {
+    width: 80px;
+    height: 2px;
+    background-color: #047CFF;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    color: #047CFF;
+    border: 1px solid #047CFF;
+    background-color: #ffffff;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: 30px;
+
+
+}
+
 .content {
     max-width: 100%;
-    height: 1800px;
+    height: 2100px;
     background-color: #ffffff;
     margin-left: 390px;
     margin-right: 390px;
+    position: relative;
 }
 
 .content__title {
@@ -16,18 +38,25 @@
     color: #F0542D;
 }
 
-.content__introducion {
 
-}
-.content__introducion span {
+span {
     color: #047CFF;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
+    margin-left: 325px ;
 }
 
-.content .card-deck {
 
+
+.content__introducion p {
+    margin: 0px 60px 0px 60px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.content__gt {
+    
 }
 /*end-content*/
 
