@@ -33,12 +33,12 @@ hr {
 
 .container .container__list .img__icon {
     position: absolute;
-    left: -14px;
+    left: 0px;
     padding-top: 4px;
 }
 
 .container ol  {
-    padding: 30px;
+    padding: 40px;
 
 }
 

@@ -1,28 +1,16 @@
-.footer {
+#footer {
     width: 100%;
-    height: 452px;
     background-color: #004E9E;
+    color: #ffffff;
     
 }
 
-.footer__block {
-    display: flex;
-}
-
-.footer__left {
-    color: #FFFFFF;
-    max-width: 570px;
-    height: 400px;
-    margin-left: 390px;
-}
-
-.footer__left .footer__lg .footer__lg__likedin {
-    margin: 20px;
-}
-
 .footer__title {
-    font-size: 20px;
     text-transform: uppercase;
+}
+
+.footer_information {
+    font-size: 20px;
     font-weight: Semibold;
     padding-top: 48px;
 }
@@ -39,8 +27,8 @@
 
 .footer__list ul text {
     padding-left: 5px;
-    font-size: 12px;
-    font-weight: Regular;
+    font-size: 14px;
+    font-family: Regular;
 }
 
 .footer__list ul .icon__phone {
@@ -48,8 +36,7 @@
 }
 
 .footer__right {
-    margin-top: 50px;
-    margin-left: 10px;
+    padding-top: 50px;
 }
 
 .footer__copyright {
@@ -60,5 +47,7 @@
     font-size: 14px;
     background-color: #003A75;
     padding-top: 15px;
+    margin-top: 25px;
+    font-weight: Regular;
 
 }

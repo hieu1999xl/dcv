@@ -10,21 +10,22 @@
 }
 
 #content h2 {
-    padding: 40px;
     color: #047CFF;
     font-weight: Semibold;
+    padding: 40px;
+    
 }
 
 #content .container__top p {
-    text-align: center;
     font-size: 17px;
+    text-align: center;
     padding: 20px;
 }
 
 hr {
-    width: 10%;
-    height: 2px;
     background-color: #047CFF;
+    height: 2px;
+    width: 10%;
 }
 
 .container__text {
@@ -52,5 +53,4 @@ hr {
 .container .container__right .container__right__bottom p {
     color: #047CFF;
 }
-
 

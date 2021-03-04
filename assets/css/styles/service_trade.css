@@ -1,0 +1,81 @@
+
+#content h2, h3 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#content h2 {
+    color: #047CFF;
+    font-weight: Semibold;
+    padding: 40px;
+    
+}
+
+#content .container__top p {
+    font-size: 17px;
+    text-align: center;
+    padding: 20px;
+}
+
+hr {
+    background-color: #047CFF;
+    height: 2px;
+    width: 10%;
+}
+
+.container__text {
+    font-size: 30px;
+}
+
+.container__img {
+    width: 100%;
+}
+
+.container .container__right {
+    padding-top: 40px;
+    padding-left: 80px;
+}
+
+.container .container__right p {
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+.container .container__right .container__right__bottom {
+    padding-top: 40px;
+}
+
+.container .container__right .container__right__bottom a {
+    color: #047CFF;
+}
+
+.container .container__list{
+    position: relative;
+}
+
+.container .container__list .img__icon {
+    left: 0px;
+    padding-top: 4px;
+    position: absolute;
+}
+
+.container__bottom {
+    padding-top: 40px;
+    position: relative;
+}
+
+.container__bottom h4 {
+    font-size: 30px;
+}
+
+.container__bottom ul {
+    padding-top: 10px;
+    position: absolute;
+    left: -38px;
+}
+
+.container__bottom ul li {
+    list-style-type: none;
+    font-size: 17px;
+}
