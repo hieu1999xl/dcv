@@ -16,7 +16,10 @@
     <link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/jquery-ui.min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/contact.css" type="text/css">
     <link rel="stylesheet" href="assets/css/base.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/footer.css" type="text/css">
+
 
 </head>
 
@@ -31,45 +34,81 @@
 
     <section class="form_contact_dcv">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6"></div>
-                <div class="col-lg-6">
-                    <form action="" method="POST">
-                        <div class="contact__input">
-                            <h5 class="contact_textform_dcv">Tên của bạn</h5>
-                            <input class="form-control" type="text" placeholder="Vui lòng nhập tên của bạn"
-                                aria-label="Disabled input example">
+            <div class="formcontact_dcv_dropshadow">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="maincontent_contact">
+                            <div class="title_contact_dcv">
+                                <h5 class="title_contact_dct_h5">CÔNG TY CỔ PHẦN TRUYỀN SỐ LIỆU VIỆT NAM</h5>
+                            </div>
+                            <ul class="maincontent_contact_listitem">
+                                <li class="maincontent_contact_listitem_item">
+                                    <!-- <i class="far fa-map-marker-check"></i> -->
+                                    <p>Tầng L2, Mỹ Sơn Tower, Số 62 Nguyễn Huy
+                                        Tưởng, Thanh Xuân, Hà Nội </p>
+                                </li>
+                                <li class="maincontent_contact_listitem_item">
+                                    <!-- <i class="fal fa-globe"></i> -->
+                                    <p>www.dcv.vn</p>
+                                </li>
+                                <li class="maincontent_contact_listitem_item">
+                                    <!-- <i class="fal fa-envelope"></i> -->
+                                    <p>contact@dcv.vn </p>
+                                </li>
+                                <li class="maincontent_contact_listitem_item">
+                                    <!-- <i class="far fa-phone-alt"></i> -->
+                                    <p>(+84)-2462944447 </p>
+                                </li>
 
+                            </ul>
                         </div>
-                        <div class="contact__input">
-                            <h5 class="contact_textform_dcv">Email</h5>
+                        <div class="maincontent_contact_img">
+                            <img class="maincontent_contact_img_dcv" src="/assets/img/contact/Group 6158.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <form action="" method="POST">
+                            <div class="contact__input">
+                                <h5 class="contact_textform_dcv">Tên của bạn</h5>
+                                <input class="form-control form_contact_dcv" type="text"
+                                    placeholder="Vui lòng nhập tên của bạn" aria-label="Disabled input example">
 
-                            <input class="form-control" type="email" placeholder="Vui lòng nhập Email của bạn"
-                                aria-label="Disabled input example">
-                        </div>
-                        <div class="contact__input">
-                            <h5 class="contact_textform_dcv">Số điện thoại</h5>
-                            <input class="form-control" type="number" placeholder="Vui lòng nhập số điện thoại của bạn"
-                                aria-label="Disabled input example">
-                        </div>
-                        <div class="contact__input">
-                            <h5 class="contact_textform_dcv">Nội dung</h5>
-                            <textarea class="form-control" rows="5" type="text"
-                                placeholder="Vui lòng nhập nội dung yêu cầu"
-                                aria-label="Disabled input example"></textarea>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="capchacontact_dcv">
-                                    <div class="g-recaptcha" data-sitekey="dcv_vip_pro"></div>
+                            </div>
+                            <div class="contact__input">
+                                <h5 class="contact_textform_dcv">Email</h5>
+
+                                <input class="form-control form_contact_dcv" type="email"
+                                    placeholder="Vui lòng nhập Email của bạn" aria-label="Disabled input example">
+                            </div>
+                            <div class="contact__input">
+                                <h5 class="contact_textform_dcv">Số điện thoại</h5>
+                                <input class="form-control form_contact_dcv" type="number"
+                                    placeholder="Vui lòng nhập số điện thoại của bạn"
+                                    aria-label="Disabled input example">
+                            </div>
+                            <div class="contact__input">
+                                <h5 class="contact_textform_dcv">Nội dung</h5>
+                                <textarea class="form-control" rows="5" type="text"
+                                    placeholder="Vui lòng nhập nội dung yêu cầu"
+                                    aria-label="Disabled input example"></textarea>
+                            </div>
+
+
+                            <div class="row">
+
+                                <div class="col-lg-8">
+                                    <div class="capchacontact_dcv">
+                                        <div class="g-recaptcha" data-sitekey="dcv_vip_pro"></div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div type="submit" class="btn btn-primary btn_contact_dcv"> Gửi</div>
-                            </div>
-                        </div>
+                                <div class="col-lg-4">
+                                    <div type="submit" class="btn btn-primary btn_contact_dcv"> Gửi</div>
+                                </div>
 
-                    </form>
+                            </div>
+
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -83,6 +122,8 @@
 <script src='https://www.google.com/recaptcha/api.js'></script>
 <script src="assets/js/jquery-3.3.1.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/fontawesome.min.js"></script>
+
 <script src="assets/js/main.js"></script>
 
 </html>

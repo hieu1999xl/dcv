@@ -1,0 +1,70 @@
+.formcontact_dcv_dropshadow {
+    padding: 5em;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 8px 20px 0 rgb(0 0 0 / 19%);
+}
+
+h5.title_contact_dct_h5 {
+    font-size: 2.2rem;
+    color: #000000;
+}
+
+li.maincontent_contact_listitem_item {
+    list-style: none;
+}
+
+li.maincontent_contact_listitem_item {
+    font-size: 1.6rem;
+    color: #004E9E;
+}
+
+h5.contact_textform_dcv {
+    text-transform: uppercase;
+    font-size: 2rem;
+  
+    margin-bottom: 1em;
+}
+
+input.form-control.form_contact_dcv {
+    height: 4em;
+    background-color: #ccc;
+    font-size: 1.5rem;
+    margin-bottom:1em;
+}
+
+textarea.form-control {
+    background-color: #ccc;
+}
+
+.capchacontact_dcv {
+    margin-top: 4em;
+}
+
+.btn.btn-primary.btn_contact_dcv {
+    margin-top: 4em;
+    width: 6.5em;
+    line-height: 2.7rem;
+    background-color: #4A66E6;
+    border-radius: 4px;
+    height: 2.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+    /* height: 5em; */
+    font-size: 1.5rem;
+    font-size: 1.rem;
+}
+
+section.contact_map {
+    position: relative;
+    z-index: 1;
+}
+
+.formcontact_dcv_dropshadow {
+    position: relative;
+    z-index: 2;
+    top: -13rem;
+    background-color: white;
+}
+
+img.maincontent_contact_img_dcv {
+    width: 100%;
+}

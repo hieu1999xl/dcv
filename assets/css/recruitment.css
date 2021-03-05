@@ -35,7 +35,7 @@
 
 
 section.maincotent-recruitment {
-    margin-top: 5em;
+    padding-top: 5em;
 }
 
 ul.text_maincontent_recruitment li {
@@ -68,7 +68,7 @@ ul {
  
 
 section.recruiment_process-recruitment {
-    margin-top: 6em;
+    padding-top: 5em;
 }
 p.font_medium-recruitment {
     font-size: 4.1rem;

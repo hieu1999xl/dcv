@@ -1,0 +1,113 @@
+
+
+/* Breadcrumb Section Begin */
+
+.breadcrumb-section_culturebg {
+    display: flex;
+    align-items: center;
+    padding: 0px 0 40px;
+    height: 252px;
+}
+
+h2.breadcrumb__text__cutlturetittle {
+    font-size: 3rem;
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+
+/* Breadcrumb Section End */
+
+
+ /* Main Content Culture Begin  */
+
+h2.culture_maincontent_title {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    padding-left: 1em;
+    font-weight: 700;
+}
+
+.culture_maincontent {
+    border-left: 5px solid #009FDF;
+    margin-bottom: 3em;
+}
+
+
+section.cuture_hot_news {
+    padding-top: 3em;
+}
+
+h2.culture-hot_new_main_title {
+    text-align: justify;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-top: .8em;
+}
+
+p.culture-hot_new_main_content {
+    font-size: 1.5rem;
+    text-align: justify;
+    color: #505050;
+}
+
+img.main_imghot_news_bg {
+    width: 100%;
+}
+
+.mt-4, .my-4 {
+    margin-top: 0 !important;
+}
+
+.title_media_body {font-size: 1.8rem;font-weight: 700; text-transform: uppercase;}
+
+p.text_media_body {
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+button.button_group_dcv_event_left {
+    height: 49px;
+    text-transform: uppercase;
+    border: none !important;
+    font-size: 1.4rem;
+}
+
+button.btn.btn-light.button_group_dcv_event_middle {background-color: #DEDEDE;font-size: 1.4rem;text-transform: uppercase;}
+
+button.btn.btn-light.button_group_dcv_event_right {
+    background-color: #DEDEDE;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+
+}
+
+
+.btn-group.button_group_dcv_event {
+    width: 100%;
+}
+
+h2.culture_maincontent_title_box {
+    border-left: 4px solid #009FDF;
+    font-size: 1.4rem;
+    padding-left: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.culture_maincontent_box {
+    /* border-left: 5px solid #009FDF; */
+    padding: 1em;
+    border-bottom: 1px solid #cccccc;
+}
+.boder_box_culture {
+    border: 1px solid #cccccc;
+    border-radius: 2em;
+    padding: 2em;
+    margin-bottom: 4em;
+}
+
+.box_high_top {
+    padding: 2em;
+}
+
+ /* Main Content Culture End  */
