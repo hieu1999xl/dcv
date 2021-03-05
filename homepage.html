@@ -24,45 +24,178 @@
 </head>
 
 <body>
-  <div class="wrapper">
     <!-- header --->
-    <div class="header">
+    <div id="header">
         <!-- menu -->
-        <div class="container">
-          
+          <div class="container">
+            <div class="header__menu">
+              <div class="row">
+                <nav class="navbar navbar-expand-lg">
+                  <img class="header__logo" src="./assets/img/homepage/logo.png" alt="">
+                  
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Trang chủ</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Về chúng tôi</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Dịch vụ
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Phái cử nguồn nhân lực</a>
+                          <a class="dropdown-item" href="#">Gia công phần mềm</a>
+                          <a class="dropdown-item" href="#">Nội dung số</a>
+                          <a class="dropdown-item" href="#">Dịch vụ BPO thuê ngoài dịch vụ</a>
+                          <a class="dropdown-item" href="#">Giao dịch hàng hóa phái sinh</a>
+                        </div>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Sản phẩm
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Phần mềm quản lý báng hàng poss</a>
+                          <a class="dropdown-item" href="#">Phần mềm quản lý nhà thuốc</a>
+                          <a class="dropdown-item" href="#">Phần mềm a hóa đơn</a>
+                        </div>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Tuyển dụng
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Tuyển dụng 1</a>
+                          <a class="dropdown-item" href="#">Tuyển dụng 2</a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Văn hóa</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Liên hệ</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          TV
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </li>
+                    </ul>                
+                  </div>
+                  <label id="icon">
+                    <i class="fa fa-bars"></i>
+                  </label>
+                </nav>
+            </div>
+          </div>
         </div>
+        
         <!--end-menu-->
 
         <!-- slide -->
         <div class="header__slide">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="./assets/img/homepage/slide1.png" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="./assets/img/homepage/slide2.png" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="./assets/img/homepage/slide3.png" alt="Third slide">
-                </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                </a>
-            </div>
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img class="d-block w-100" src="./assets/img/homepage/slide1.png" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                  <img class="d-block w-100" src="./assets/img/homepage/slide2.png" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                  <img class="d-block w-100" src="./assets/img/homepage/slide3.png" alt="Third slide">
+              </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </a>
+          </div>
         </div>
     </div>
     <!--end-header-->
-    <div class="conten"></div>
+    <div id="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1>Về chúng tôi</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="content__introduction">
+              <h2><a href="#">Giới thiệu</a></h2>
+              <hr>
+              <p>Thành lập năm 2013, DCV có 7 năm kinh nghiệm triển khai dịch vụ Phái cử nguồn nhân lực, dịch vụ Gia công phát triển phần mềm, VAS... . Doanh thu hằng năm ước tính gần 1,5 triệu USD, với nhân sự~100(N) , chúng tôi luôn tự tin và sẵn sàng với những cơ hội hợp tác mới bởi giá trị cốt lõi:....</p>
+              <button class="content__introduction_button_middle">Xem thêm</button>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="content__solution">
+              <h2><a href="#">Giải thưởng</a></h2>
+              <hr>
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="card">
+                    <img class="card-img-top" src="./assets/img/homepage/top2.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <img class="card-img-top" src="./assets/img/homepage/top3-1.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <img class="card-img-top" src="./assets/img/homepage/Mask Group 26.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <img class="card-img-top" src="./assets/img/homepage/Group 758.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--footer-->
     <div id="footer">
       <div class="container">
         <div class="row">
@@ -79,8 +212,8 @@
               </ul>
             </div>
             <div class="footer__lg">
-              <img class="footer__lg__fb" src="./assets/img/homepage/768px-Facebook_f_logo_(2019).svg.png" alt="img_facebook"/>
-              <img class="footer__lg__likedin" src="./assets/img/homepage/linkedin-512.png" alt="img_likedin"/>
+              <a href="https://www.facebook.com/lhtd99"><img class="footer__lg__fb" src="./assets/img/homepage/768px-Facebook_f_logo_(2019).svg.png" alt="img_facebook"/></a>
+              <a href="#"><img class="footer__lg__likedin" src="./assets/img/homepage/linkedin-512.png" alt="img_likedin"/></a>
             </div>
           </div>
           <div class="col-xl-6">
@@ -94,7 +227,7 @@
         COPYRIGHT © 2016 DCV ALL RIGHTS RESERVED
       </div>
     </div>
-  </div>
+
 </body>
 
 <!-- Js Plugins -->

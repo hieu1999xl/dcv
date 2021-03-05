@@ -51,6 +51,7 @@ hr {
 
 .container .container__right .container__right__bottom p {
     color: #047CFF;
+    cursor: pointer;
 }
 
 

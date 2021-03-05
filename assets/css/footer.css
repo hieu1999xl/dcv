@@ -11,7 +11,6 @@
 
 .footer_information {
     font-size: 20px;
-    font-weight: Semibold;
     padding-top: 48px;
 }
 
@@ -28,7 +27,6 @@
 .footer__list ul text {
     padding-left: 5px;
     font-size: 14px;
-    font-family: Regular;
 }
 
 .footer__list ul .icon__phone {
@@ -48,6 +46,4 @@
     background-color: #003A75;
     padding-top: 15px;
     margin-top: 25px;
-    font-weight: Regular;
-
 }
