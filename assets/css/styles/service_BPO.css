@@ -64,16 +64,7 @@ hr {
     padding-top: 4px;
 }
 
-.container ul  {
-    list-style-type: none;
-    padding: 30px;
-}
 
-.container ul li {
-    font-size:17px;
-    font-weight: Semibold;
-    color: #69708D;
-}
 
 .container__bottom {
     padding-top: 40px;

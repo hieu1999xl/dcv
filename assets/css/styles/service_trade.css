@@ -69,11 +69,11 @@ hr {
     font-size: 30px;
 }
 
-.container__bottom ul {
+/* .container__bottom ul {
     padding-top: 10px;
     position: absolute;
     left: -38px;
-}
+} */
 
 .container__bottom ul li {
     list-style-type: none;

@@ -54,11 +54,10 @@ h5.maintext_maincontent-recuitment {
     width: 71.15px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
+ul.text_maincontent_recruitment {
+    list-style: none;
     padding: 0;
-  }
+}
 
   .box_maincontent-recruitment {
     margin-top: 5em;

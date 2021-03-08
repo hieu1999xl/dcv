@@ -1,49 +1,63 @@
-#footer {
-    width: 100%;
+footer.footer.spad {
     background-color: #004E9E;
-    color: #ffffff;
-    
+    /* padding: 2em; */
 }
 
-.footer__title {
-    text-transform: uppercase;
+.footer__about {
+    color: white;
 }
 
-.footer_information {
-    font-size: 20px;
-    padding-top: 48px;
-}
-
-
-.footer__list ul {
+li {
     list-style: none;
 }
 
-.footer__list ul li {
-    padding: 5px; 
-    margin-left: -45px ;
+.footer__about {padding-top: 52px;}
+
+.footer__widget {
+    padding-top: 52px;
+    padding-bottom: 45px;
 }
 
-.footer__list ul text {
-    padding-left: 5px;
-    font-size: 14px;
-}
-
-.footer__list ul .icon__phone {
-    font-weight: bold;
-}
-
-.footer__right {
-    padding-top: 50px;
+iframe.map_homepage_dcv {
+    border-radius: 10px;
 }
 
 .footer__copyright {
-    height: 52px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
     font-size: 14px;
+    color: white;
+    text-align: center;
     background-color: #003A75;
-    padding-top: 15px;
-    margin-top: 25px;
+    /* padding-bottom: .1em; */
+    height: 50px;
+    padding-top: 1em;
+}
+
+ul.footer_about_dcv {
+    padding-left: 0;
+}
+
+img.icon__phone {
+    padding-right: 1em;
+}
+
+text.text_footer_dcv {
+    font-size: 15px;
+}
+
+li.li_footer_about_dcv {
+    margin-bottom: 20px;
+}
+
+img.footer__lg__fb {
+    max-width: 51px;
+}
+
+img.footer__lg__likedin {
+    max-width: 51px;
+    margin-left: 24px;
+}
+
+h2.footer_about_title_dcv {
+    font-size: 24px;
+    margin-bottom: 1.5em;
 }

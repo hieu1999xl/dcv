@@ -3,10 +3,14 @@
 /* Breadcrumb Section Begin */
 
 .breadcrumb-section_culturebg {
+    /* padding-top: 136em; */
     display: flex;
     align-items: center;
     padding: 0px 0 40px;
+    position: relative;
     height: 252px;
+    /* padding-top: 37em; */
+    top: 2.8em;
 }
 
 h2.breadcrumb__text__cutlturetittle {

@@ -13,25 +13,13 @@
     background-color: #004E9E;
 }
 
-.container {
-    padding-top: 50px;
-}
+
 
 .container .content__title {
     font-size: 30px;
     color: #FEBF02;
 }
 
-.container .col-12 p {
-    color: #ffffff;
-    font-size: 20px;
-    padding-top: 10px;
-}
-
-.col-lg-4 {
-    padding-top: 60px;
-    border-radius: 10%;
-}
 
 .card {
     height: 500px;
