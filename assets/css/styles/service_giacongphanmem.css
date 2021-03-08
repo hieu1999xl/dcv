@@ -1,0 +1,57 @@
+/* #content {
+    position: relative;
+} */
+
+
+#content h2, h3 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#content h2 {
+    padding: 40px;
+    color: #047CFF;
+    font-weight: Semibold;
+}
+
+#content .container__top p {
+    text-align: center;
+    font-size: 17px;
+    padding: 20px;
+}
+
+hr {
+    width: 10%;
+    height: 2px;
+    background-color: #047CFF;
+}
+
+.container__text {
+    font-size: 30px;
+}
+
+.container__img {
+    width: 100%;
+}
+
+.container .container__right {
+    padding-top: 40px;
+    padding-left: 80px;
+}
+
+.container .container__right p {
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+.container .container__right .container__right__bottom {
+    padding-top: 60px;
+}
+
+.container .container__right .container__right__bottom p {
+    color: #047CFF;
+    cursor: pointer;
+}
+
+
