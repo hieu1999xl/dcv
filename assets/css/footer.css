@@ -61,3 +61,10 @@ h2.footer_about_title_dcv {
     font-size: 24px;
     margin-bottom: 1.5em;
 }
+
+@media(max-width: 1000px) {
+    .footer__widget {
+        position: relative;
+        top: 40px;
+    }
+}

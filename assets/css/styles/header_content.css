@@ -4,6 +4,8 @@
 
 a {
     text-decoration: none;
+    cursor: pointer;
+
 }
 
 h1 {
@@ -18,13 +20,34 @@ h2 {
     font-size: 20px;
 }
 
+h5 {
+    font-size: 14px;
+    text-align: center;
+}
+
 hr {
     width: 70px;
     height:1px;
     background-color: #047CFF;
 }
 
-button.content__introduction_button_middle {
+.card {
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 8px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.card:hover {
+    border-color: #047CFF;
+}
+
+.card-text {
+    text-align: center;
+}
+
+button{
     width: 100px;
     height: 40px;
     background-color: #ffffff;
@@ -43,104 +66,109 @@ button:hover {
     background-color: #a6ada6;
 }
 
-.content__introduction {
-    padding-top: 20px;
-}
-
-.content__introduction p {
-    margin: 20px 60px;
-    text-align: center;
-    font-size: 17px;
-}
-
 .content__solution .card-img-top {
-    width: 94px;
-    height: 79px;
-    margin: 0 auto;  
+    width: 85px;
+    height: 70px;
+    margin: 0 auto;
+    padding-top: 10px;
 }
 
-.content__solution {
+.content__solution h2 {
     padding-top: 20px;
-    padding-bottom: 40px;
-}
-.content__solution__middle{
-    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%), 0 4px 10px 0 rgb(0 0 0 / 19%);
-}
-.content__solution__middle:hover {
-    border: #047CFF;
 }
 
-.card {
-    border: 0;
-    padding: 10px;
+.services__title {
+    color:#047CFF;
 }
 
-.card-body {
-    padding: 5px 30px;
-    text-align: center;
-}
-.card-title {
-    color: #047CFF;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.card-text {
-    font-size: 12px;
-}
-
-.content__outstanding__service {
-    background-color: #EBF5FF;
+.services__img {
     padding-top: 30px;
 }
 
-.content__outstanding__service h1 {
-    text-align: center;
-    color: #047CFF;
-}
-.content__outstanding__service__image {
-    width: 100%;
+.service__button {
+    margin-left: 83px;
+    margin-top: -10px;
 }
 
-.content__outstanding__service__right {
-    padding-top: 20px;
-    padding-right: 170px;
-    padding-left: 50px;
-}
-
-.content__outstanding__service__right a {
-    color: #047CFF;
-    font-weight: bold;
+.service__list a {
+    color:#047CFF;
     font-size: 20px;
 }
 
-.content__outstanding__service__right p {
-    font-size: 17px;
+.service__list .service__text {
+    line-height: 1;
 }
 
-.content__outstanding__service__right hr{
-    width: 400px;
+.custom {
+    padding-top: 50px;
 }
 
-.content__outstanding__service__right button {
-    margin-left: 70px;
+.custom .custom__title {
+    color: #047CFF;
 }
 
-.content__outstanding__service__icon {
-    width:auto;
-    height:auto;
+.custom__sponsor {
+    padding-top: 10px;
 }
 
-.content__custom {
-    padding-top: 30px;
+.custom__sponsor__kh {
+    padding: 36px;
 }
 
-.content__custom .card-img-top {
-    width: 211px;
-    height: 122px;
+.new .card-img-top {
+    width: 95%;
+    margin-top: -15px;
+    margin-left: 7px;
+    
 }
 
-/* .content__custom .row {
-    margin-left: ;
-} */
+.new__card a {
+    color: #ffffff;
+}
+
+.new__card p {
+    color: #ffffff;
+    font-size: 11px;
+}
+
+.new .card-img-top:hover {
+    border-color: #5894d4;
+}
+
+.new__card {
+    background-color: #59abc0;
+}
+
+.new__button {
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+@media (max-width:768px) {
+    #content {
+        font-size: 80%;
+    }
+    .card {
+        width: 98%;
+        
+    }
+    .new__info {
+        padding-left: 20px;
+    }
+    .custom__sponsor__kh {
+        padding-left: 120px;
+    }
+}
+
+/* @media (max-width:992px) {
+    .card {
+        width: 115%;
+    }
+    .card-img-top {
+        
+    } */
+
