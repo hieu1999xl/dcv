@@ -31,8 +31,12 @@ hr {
     background-color: #047CFF;
 }
 
+.content__solution .padding {
+    padding-top: 30px;
+}
+
 .card {
-    padding-top: 20px;
+    padding-top: 10px;
     width: 100%;
     height: 100%;
     border-radius: 14px;
@@ -115,9 +119,12 @@ button:hover {
     padding: 36px;
 }
 
+.new {
+    max-width: 100%;
+}
+
 .new .card-img-top {
     width: 95%;
-    margin-top: -15px;
     margin-left: 7px;
     
 }
@@ -145,22 +152,66 @@ button:hover {
     padding-bottom: 20px;
 }
 
-
-
-
-@media (max-width:768px) {
+@media (max-width:1020px) {
     #content {
+        margin-top: -630px;
+    }
+    h1,h2,p,h5 {
+        font-size: 95%;
+    }
+    .content__solution .card {
+        width: 115%;
+    }
+    .services__img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .new__card {
+        width: 115%;
+    }
+
+    .content__service__info {
+        padding: 0px 40px;
+    }
+
+    .custom__sponsor__kh img {
+        width: 70%;
+    }
+}
+@media(max-width: 600px) {
+    h1,h2,p,h5 {
+        font-size: 90%;
+    }
+    #content {
+        padding-top: 150px;
+    }
+    .content__introduction p {
+        padding: 0px 35px;
+    }
+    .content__solution .card {
+        width:  80%;
+        margin: 0 auto;
+
+    }
+    .content__service h1 {
         font-size: 80%;
     }
-    .card {
-        width: 98%;
-        
+
+    .services__img {
+        width: 90%;
     }
-    .new__info {
-        padding-left: 20px;
-    }
+
     .custom__sponsor__kh {
-        padding-left: 120px;
+        width: 50%;  
+    }
+    .custom__sponsor__kh img {
+        width: 90%;
+    }
+}
+@media (max-width:400px) {
+    #content {
+        padding-top: 180px;
     }
 }
 

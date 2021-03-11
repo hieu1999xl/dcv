@@ -35,25 +35,15 @@
 
 .card {
     height: 460px;
+    text-align: center;
     border-radius: 4%;
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 8px 20px 0 rgb(0 0 0 / 19%);
 
 }
 
-.card-text {
-    text-align: center
-}
-
-.card p {
-    font-size: 17px;
-    padding-top: 10px;
-    padding-left: 15px;
-
-}
-
 .card:hover {
-    box-shadow: 1px 1px 1px #004E9E;
+    border-color: #047CFF;
 }
 
 .card .card-body {
@@ -64,10 +54,30 @@
     font-size: 20px;
     font-weight: Semibold;
     text-transform: uppercase;
-    text-align: center;
 }
 
+.card p {
+    font-size: 17px;
+    padding-top: 10px;
 
+}
 
+@media (max-width: 700px) {
+    .card {
+        width: 90%;
+        height: 90%;
+        margin: 0 auto;
+        margin-top: -50px;
+    }
+    .card__title {
+        font-size: 10px;
+    }
+}
 
+@media (max-width: 1020px) {
+    .card {
+        width: 90%;
+        height: 100%;
+    }
 
+}

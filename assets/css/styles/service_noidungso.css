@@ -38,7 +38,7 @@ hr {
 
 .container .container__right {
     padding-top: 40px;
-    padding-left: 80px;
+    padding-left: 40px;
 }
 
 .container .container__right p {
@@ -47,7 +47,7 @@ hr {
 }
 
 .container .container__right .container__right__bottom {
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 .container .container__right .container__right__bottom p {

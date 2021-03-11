@@ -43,7 +43,7 @@
 }
 
 .card:hover {
-    box-shadow: 1px 1px 1px #004E9E;
+    border-color: #047CFF;
 }
 
 .card .card-body {
@@ -62,4 +62,23 @@
 
 }
 
+@media (max-width: 700px) {
+    .card {
+        width: 90%;
+        height: 90%;
+        margin: 0 auto;
+        margin-top: -50px;
+    }
+    .card__title {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .card {
+        width: 90%;
+        height: 100%;
+    }
+
+}
 

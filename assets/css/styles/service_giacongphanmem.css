@@ -37,7 +37,7 @@ hr {
 
 .container .container__right {
     padding-top: 40px;
-    padding-left: 80px;
+    /* padding-left: 80px; */
 }
 
 .container .container__right p {
@@ -52,6 +52,13 @@ hr {
 .container .container__right .container__right__bottom p {
     color: #047CFF;
     cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    h2,h3,h4,p {
+        width: 80%;
+        margin: 0 auto;
+    }
 }
 
 
